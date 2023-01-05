@@ -26,3 +26,5 @@
   - nested require in VDO No.83 : Failing Nested Paths
 
 - section 9 : Caching (localForage)
+- section 10 : Display code in iframe & Security concern
+  - webpack config with react-app-rewired https://alchemy.com/blog/how-to-polyfill-node-core-modules-in-webpack-5 this link absolutely save my life
