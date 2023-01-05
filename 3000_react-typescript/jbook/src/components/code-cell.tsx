@@ -10,12 +10,13 @@ const CodeCell = () => {
 
   const onClick = async () => {
     const result = await bundler(input);
+    console.log("call bundler")
     setCode(result);
   };
 
   return (
     <div>
-      <CodeEditor initialValue='const a = 5;' onChange={(value) => setInput(value)} />
+      <CodeEditor initialValue='' onChange={(value) => setInput(value)} />
       <div>
         <button onClick={onClick}>Submit</button>
       </div>

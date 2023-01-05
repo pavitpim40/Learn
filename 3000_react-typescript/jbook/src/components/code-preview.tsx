@@ -30,8 +30,10 @@ const Preview: React.FC<PreviewProps> = ({ code }) => {
   useEffect(() => {
     iframeRef.current.srcdoc = html;
     iframeRef.current.contentWindow.postMessage(code, '*');
+    console.log("Effect")
+    console.log(code)
   }, [code]);
-  return <iframe srcDoc={html} title='code-preview' sandbox='allow-scripts' ref={iframeRef} />;
+  return <iframe title='code-preview' sandbox='allow-scripts' ref={iframeRef} />;
 };
 
 export default Preview;
