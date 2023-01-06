@@ -27,4 +27,9 @@
 
 - section 9 : Caching (localForage)
 - section 10 : Display code in iframe & Security concern
+
   - webpack config with react-app-rewired https://alchemy.com/blog/how-to-polyfill-node-core-modules-in-webpack-5 this link absolutely save my life
+
+- section 11-12 : use Monaco editor
+- section 13 : CSS of editor and preview
+  - draggable bug fixed by css pseudo-element

@@ -4,7 +4,6 @@ import { useRef } from 'react';
 import MonacoEditor, { OnMount } from '@monaco-editor/react';
 import prettier from 'prettier';
 import parser from 'prettier/parser-babel';
-import codeShift from 'jscodeshift';
 import MonacoJSXHighlighter from 'monaco-jsx-highlighter';
 import {parse} from '@babel/parser'
 import traverse from '@babel/traverse'
@@ -55,7 +54,7 @@ const CodeEditor: React.FC<CodeEditorProps> = ({ initialValue, onChange }) => {
         value={initialValue}
         onMount={onEditorDidMount}
         language='javascript'
-        height='500px'
+        height='100%'
         theme='vs-dark'
         options={{
           wordWrap: 'on',
