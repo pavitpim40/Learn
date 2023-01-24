@@ -10,3 +10,7 @@
 - branch 7000-7999 : dataStructure and algorithm
 - branch 8000-8999 : mathematics
 - branch 9000-9999 : free elective
+
+# Branch 1000-1999
+
+- 1000 : Advanced C Programming: Pointers [UDEMY](https://www.udemy.com/course/advanced-c-programming-pointers/)
